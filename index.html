@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Signal Through the Noise — a scroll-driven story about finding clarity in a distracted world.">
+  <title>Signal Through the Noise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="story-header">
+    <a class="mark" href="#opening" aria-label="Return to the beginning">STN—01</a>
+    <p class="chapter-label" id="chapter-label">01 / OVERLOAD</p>
+  </header>
+
+  <main>
+    <section class="scene scene-opening" id="opening" data-chapter="01 / OVERLOAD">
+      <div class="noise-field" aria-hidden="true">
+        <span>URGENT</span><span>NEW</span><span>99+</span><span>TRENDING</span>
+        <span>WATCH</span><span>REPLY</span><span>UPDATE</span><span>NOW</span>
+        <span>SCROLL</span><span>LIVE</span><span>BUY</span><span>MORE</span>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">A scroll-driven story</p>
+        <h1 class="split-title" aria-label="Signal through the noise">
+          <span data-speed="0.18">SIGNAL</span>
+          <span class="outline" data-speed="-0.12">THROUGH</span>
+          <span data-speed="0.08">THE NOISE</span>
+        </h1>
+        <p class="hero-note reveal">Every screen asks for your attention.<br>Keep scrolling to take it back.</p>
+      </div>
+      <a class="scroll-cue" href="#static" aria-label="Scroll to continue">
+        <span>SCROLL</span><i></i>
+      </a>
+    </section>
+
+    <section class="scene scene-static" id="static" data-chapter="02 / STATIC">
+      <div class="orbit orbit-one" data-speed="0.16" aria-hidden="true"></div>
+      <div class="orbit orbit-two" data-speed="-0.10" aria-hidden="true"></div>
+      <div class="chapter-number" data-speed="0.08" aria-hidden="true">02</div>
+      <div class="story-copy reveal">
+        <p class="eyebrow">The static</p>
+        <h2>Noise grows when everything feels equally important.</h2>
+        <p>Messages. Deadlines. Opinions. Infinite tabs. The signal is still there, but it gets buried beneath a thousand small demands.</p>
+      </div>
+      <div class="ticker" aria-hidden="true">
+        <div>MORE INPUT &nbsp;—&nbsp; LESS MEANING &nbsp;—&nbsp; MORE INPUT &nbsp;—&nbsp; LESS MEANING &nbsp;—&nbsp;</div>
+      </div>
+    </section>
+
+    <section class="scene scene-pause" id="pause" data-chapter="03 / PAUSE">
+      <div class="layer layer-back" data-speed="0.05" aria-hidden="true"></div>
+      <div class="layer layer-mid" data-speed="0.14" aria-hidden="true"></div>
+      <div class="layer layer-front" data-speed="0.25" aria-hidden="true"></div>
+      <div class="pause-word" aria-hidden="true">PAUSE</div>
+      <div class="story-copy story-copy-right reveal">
+        <p class="eyebrow">The interruption</p>
+        <h2>Clarity begins with a pause.</h2>
+        <p>Not every notification deserves a response. Not every thought deserves your belief. Distance creates room to decide what matters.</p>
+      </div>
+    </section>
+
+    <section class="scene scene-focus" id="focus" data-chapter="04 / FOCUS">
+      <div class="focus-lines" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="focus-ring" data-speed="0.10" aria-hidden="true"><span></span></div>
+      <div class="story-copy reveal">
+        <p class="eyebrow">The choice</p>
+        <h2>Attention is not found.<br>It is directed.</h2>
+        <p>Choose one task. Give it time. Let everything else wait. What felt invisible begins to sharpen.</p>
+      </div>
+      <div class="focus-steps" aria-label="Three steps toward focus">
+        <article class="reveal"><span>01</span><h3>Reduce</h3><p>Remove what competes.</p></article>
+        <article class="reveal"><span>02</span><h3>Choose</h3><p>Name what matters now.</p></article>
+        <article class="reveal"><span>03</span><h3>Begin</h3><p>Protect the first minute.</p></article>
+      </div>
+    </section>
+
+    <section class="scene scene-signal" id="signal" data-chapter="05 / SIGNAL">
+      <div class="signal-beam" aria-hidden="true"></div>
+      <div class="final-copy reveal">
+        <p class="eyebrow">The signal</p>
+        <h2>Less noise.<br><span>More direction.</span></h2>
+        <p>The world did not become quieter.<br>You became better at listening.</p>
+        <a href="#opening" class="restart">Experience it again <span>↗</span></a>
+      </div>
+      <footer>
+        <span>CCT360 — LAB 1</span>
+        <span>YOUSSEF ALHABBAL</span>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
